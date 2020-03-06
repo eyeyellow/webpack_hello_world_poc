@@ -6,5 +6,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'hello-world.js',
     library: 'MyLibrary',
+    libraryTarget: 'umd'
   },
 };
